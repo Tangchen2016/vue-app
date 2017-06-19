@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* 基础css  清除默认样式*/
+/*=====================reset start=====================*/
+*{
+  padding:0; margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-size:100%;
+  line-height:100%;
+  font-weight:normal;
+}
+body{
+  font-size:12px;
+}
+a{
+  text-decoration:none;
+  color:#000;
+}
+i,em{
+  font-style:normal;
+}
+b,strong{
+  font-weight:normal;
+}
+input{
+  outline:none;
+  border:none 0;
+  padding:0;
+}
+a img{
+  border:0;
+}/*a包img：去蓝色边框*/
+img{
+  display:block;
+}/*a包img：去3像素bug*/
+li{
+  list-style:none;
+  vertical-align:top;
+}/*li里浮动,li不浮动，去3像素bug*/
+table,th,td,tr{
+  padding:0;
+}
+table{
+  border-collapse:collapse;
+}
+body{
+  -webkit-tap-highlight-color:rgba(255,255,255,0);
+  font-family: '微软雅黑','arial','黑体';
+  font-size: 0.28rem;
+  -webkit-background-size: 7.2rem;
+  background-size: 7.2rem;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+/* {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}*/
+#show_box{
+  min-width:280px;
+  max-width:720px;
+  margin:0 auto;
+  background-size:100%;
+  position:relative;
+  overflow-x: hidden;
+  background: #f5f5f5;
+}
+.downloadZapya {
+  display: none;
+}
+/*=====================function start=====================*/
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.clearfix:after, .clearfix:before {
+  display:table;
+  clear:both;
+  content:'';
+}
+.clearfix {
+  zoom:1;
+}
+/* 显示省略 */
+.fellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.finblock {
+  display: inline-block;
+}
