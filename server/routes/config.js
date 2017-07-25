@@ -8,7 +8,6 @@ let user = require('./user')
 
 /*router.get('/', (req, res, next) => {
   res.redirect('http://localhost:8080/#/')
-  next()
 })*/
 
 user(router)

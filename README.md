@@ -46,4 +46,8 @@
 |   |-- package.json      // 依赖的模块
 ```
 
+## 项目启动
+
+- 服务端：`cd server && npm start`
+- 客户端：`cd client && npm start`，访问　`http://localhost:8080`
 
